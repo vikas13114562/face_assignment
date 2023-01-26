@@ -7,9 +7,12 @@ import Login from './components/register/Login';
 import Home from './components/home_/Home';
 
 
+
 function App() {
+  
+
   return (
-   <>
+   <div> 
       <BrowserRouter>
         <Routes>
           <Route path='/' element = {<Login />} />
@@ -19,7 +22,7 @@ function App() {
       </BrowserRouter>
       
       
-   </>
+   </div>
   );
 }
 
